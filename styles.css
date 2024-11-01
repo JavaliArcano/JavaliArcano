@@ -14,17 +14,24 @@
     padding: 0; 
 }
 
+html {
+    scroll-behavior: smooth; 
+}
+
 h1, h2 {
+    font-family: 'Cinzel Decorative', serif;
     margin: 0px;
     color: var(--cor-principal);
 }
 
 p {
     line-height: 1.6;
+    font-family: 'Merriweather', serif;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Cinzel Decorative', serif;
 }
 
 img {
@@ -104,6 +111,18 @@ main {
     display: none;
 }
 /*menu*/
+
+/*Seções */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box; 
+    padding-top: 60px;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+/*Seções */
 
 
 @media (max-width: 800px) {
